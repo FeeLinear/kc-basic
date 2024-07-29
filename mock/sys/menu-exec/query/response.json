@@ -1,0 +1,457 @@
+{
+  "code": "0",
+  "msg": "获取菜单成功",
+  "detaile": "",
+  "head": {},
+  "body": [
+    {
+      "menuId": "1",
+      "menuType": "1",
+      "menuName": "运维平台",
+      "menuUrl": "wqdwq",
+      "menuIcon": "kui-icon-workflow",
+      "loadType": "0",
+      "children": [
+        {
+          "menuId": "11",
+          "menuType": "0",
+          "menuName": "服务管理",
+          "menuUrl": "",
+          "menuIcon": "",
+          "loadType": "0",
+          "children": [
+            {
+              "menuId": "112",
+              "menuType": "0",
+              "menuName": "服务详情",
+              "menuUrl": "/devops/service/Overview.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "120",
+              "menuType": "0",
+              "menuName": "测试loadtype",
+              "menuUrl": "/devops/service/Overview.vue",
+              "menuIcon": "",
+              "loadType": ""
+            },
+            {
+              "menuId": "111",
+              "menuType": "0",
+              "menuName": "实例详情",
+              "menuUrl": "/devops/service/detail/ServiceDetail.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "113",
+              "menuType": "0",
+              "menuName": "调用链路监控",
+              "menuUrl": "/devops/service/InvocationChain.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "115",
+              "menuType": "0",
+              "menuName": "应用详情",
+              "menuUrl": "/devops/service/ApplicationDetail.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },{
+              "menuId": "116",
+              "menuType": "0",
+              "menuName": "接口监控",
+              "menuUrl": "/devops/service/InterfaceMonitor.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            }
+          ]
+        },
+        {
+          "menuId": "12",
+          "menuType": "0",
+          "menuName": "日志监控",
+          "menuUrl": "lytest",
+          "menuIcon": "",
+          "loadType": "0",
+          "children": [{
+            "menuId": "121",
+            "menuType": "0",
+            "menuName": "日志查询",
+            "menuUrl": "/devops/log/LogSearch.vue",
+            "menuIcon": "",
+            "loadType": "0"
+          },{
+            "menuId": "122",
+            "menuType": "0",
+            "menuName": "日志备份",
+            "menuUrl": "/devops/log/LogBackup.vue",
+            "menuIcon": "",
+            "loadType": "0"
+          },{
+            "menuId": "123",
+            "menuType": "0",
+            "menuName": "日志服务器监控",
+            "menuUrl": "/devops/log/ServerMonitor.vue",
+            "menuIcon": "",
+            "loadType": "0"
+          }]
+        },
+        {
+          "menuId": "13",
+          "menuType": "0",
+          "menuName": "主机监控",
+          "menuUrl": "",
+          "menuIcon": "",
+          "loadType": "0",
+          "children": [
+            {
+              "menuId": "131",
+              "menuType": "0",
+              "menuName": "主机监控",
+              "menuUrl": "/devops/host/HostMonitor.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "132",
+              "menuType": "0",
+              "menuName": "主机管理",
+              "menuUrl": "lytest",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "123",
+              "menuType": "0",
+              "menuName": "子菜单B3",
+              "menuUrl": "lytestlll",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "122",
+              "menuType": "0",
+              "menuName": "子菜单B2",
+              "menuUrl": "lytest",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "121",
+              "menuType": "0",
+              "menuName": "子菜单B1",
+              "menuUrl": "lytest",
+              "menuIcon": "",
+              "loadType": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuId": 1000,
+      "menuName": "OEM管理",
+      "menuUrl": "",
+      "menuIcon": "el-icon-folder",
+      "menuType": "1",
+      "loadType": "0",
+      "children": [
+        {
+          "menuId": 2000,
+          "menuName": "授权码管理",
+          "menuUrl": "/oem/OemManager.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        }
+      ]
+    },
+    {
+      "menuId": 1001,
+      "menuName": "人员管理",
+      "menuUrl": "",
+      "menuIcon": "el-icon-user",
+      "menuType": "1",
+      "loadType": "0",
+      "children": [
+        {
+          "menuId": 2001,
+          "menuName": "人员信息管理",
+          "menuUrl": "/user/UserInfoManager.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2002,
+          "menuName": "人员密码重置",
+          "menuUrl": "/user/PwdReset.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2003,
+          "menuName": "机构信息管理",
+          "menuUrl": "/user/OrgInfoManager.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2004,
+          "menuName": "人员机构设置",
+          "menuUrl": "/user/UserOrg.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2005,
+          "menuName": "机构人员管理",
+          "menuUrl": "/user/OrgUser.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2006,
+          "menuName": "角色信息管理",
+          "menuUrl": "/user/RoleInfoManager.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2007,
+          "menuName": "人员角色设置",
+          "menuUrl": "/user/UserRole.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2008,
+          "menuName": "角色人员管理",
+          "menuUrl": "/user/RoleUser.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        }
+      ]
+    },
+    {
+      "menuId": 1002,
+      "menuName": "参数管理",
+      "menuUrl": "",
+      "menuIcon": "el-icon-suitcase",
+      "menuType": "1",
+      "loadType": "0",
+      "children": [
+        {
+          "menuId": 2009,
+          "menuName": "系统参数管理",
+          "menuUrl": "/param/Param.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2010,
+          "menuName": "机构参数管理",
+          "menuUrl": "/param/ParamOrg.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2011,
+          "menuName": "系统数据字典",
+          "menuUrl": "/param/Dict.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2012,
+          "menuName": "机构数据字典",
+          "menuUrl": "/param/DictOrg.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2013,
+          "menuName": "系统菜单管理",
+          "menuUrl": "/param/MenuManager.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        },
+        {
+          "menuId": 2014,
+          "menuName": "修改后台对接环境",
+          "menuUrl": "/ChangeApi.vue",
+          "menuIcon": "",
+          "menuType": "1",
+          "loadType": "0"
+        }
+      ]
+    },
+   {
+      "menuId": "api_0000",
+      "menuType": "1",
+      "menuName": "API管理",
+      "menuUrl": "api_manage",
+      "menuIcon": "el-icon-set-up",
+      "loadType": "0",
+      "children": [
+        {
+
+          "menuId": "api_0100",
+          "menuType": "0",
+          "menuName": "应用维护",
+          "menuUrl": "/api/maintenance/AppMaintenance.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0200",
+          "menuType": "0",
+          "menuName": "服务维护",
+          "menuUrl": "/api/maintenance/ServiceMaintenance.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0300",
+          "menuType": "0",
+          "menuName": "接口维护",
+          "menuUrl": "/api/maintenance/InterfaceMaintenance.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0400",
+          "menuType": "0",
+          "menuName": "服务与接口绑定",
+          "menuUrl": "/api/maintenance/ServiceInterface.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0500",
+          "menuType": "0",
+          "menuName": "翻译项查询",
+          "menuUrl": "/api/maintenance/TranslationMaintenance.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0600",
+          "menuType": "0",
+          "menuName": "接口查询",
+          "menuUrl": "/api/maintenance/InterfaceQuery.vue",
+          "menuIcon": "",
+          "loadType": "0"
+        },
+        {
+          "menuId": "api_0700",
+          "menuType": "0",
+          "menuName": "数据权限配置与维护",
+          "menuUrl": "/api/maintenance/InterfaceQuery.vue",
+          "menuIcon": "",
+          "loadType": "0",
+          "children": [
+            {
+              "menuId": "api_0701",
+              "menuType": "0",
+              "menuName": "接口组管理",
+              "menuUrl": "/api/permission/InterfaceGroup.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "api_0702",
+              "menuType": "0",
+              "menuName": "数据权限配置",
+              "menuUrl": "/api/permission/DataPermission.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "api_0703",
+              "menuType": "0",
+              "menuName": "数据权限授权",
+              "menuUrl": "/api/permission/DataAuthorization.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "api_0704",
+              "menuType": "0",
+              "menuName": "数据权限页面测试",
+              "menuUrl": "/api/permission/PermissionTest.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            }
+          ]
+        },
+        {
+          "menuId": "api_0800",
+          "menuType": "0",
+          "menuName": "第三方接口权限配置",
+          "menuUrl": "/api/maintenance/InterfaceQuery.vue",
+          "menuIcon": "",
+          "loadType": "0",
+          "children": [
+            {
+              "menuId": "api_0801",
+              "menuType": "0",
+              "menuName": "第三方应用信息管理",
+              "menuUrl": "/api/manage/ThirdAppInfoManage.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            },
+            {
+              "menuId": "api_0802",
+              "menuType": "0",
+              "menuName": "接口调用授权",
+              "menuUrl": "/api/manage/InterfaceAuthManage.vue",
+              "menuIcon": "",
+              "loadType": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuId": "19000",
+      "menuType": "1",
+      "menuName": "第三方页面测试",
+      "menuUrl": "",
+      "menuIcon": "",
+      "loadType": "1",
+      "children":[
+        {
+          "menuId": "2000",
+          "menuType": "1",
+          "menuName": "第三方页面测试1",
+          "menuUrl": "https://baidu.com",
+          "menuIcon": "",
+          "loadType": "1"
+        },{
+          "menuId": "4000",
+          "menuType": "1",
+          "menuName": "第三方页面测试2",
+          "menuUrl": "https://www.csdn.net/",
+          "menuIcon": "",
+          "loadType": "1"
+        }
+      ]
+    }
+  ]
+}

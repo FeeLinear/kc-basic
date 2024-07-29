@@ -1,0 +1,29 @@
+
+
+@import './mixin/variables';
+// 自定义主题样式
+@import "./mixin/layout-variables";
+// @import "./mixin/theme-variables";
+//@import "../themes/index.scss";
+
+// Apply overrided variables in KOCA UI
+// 参考：https://element.eleme.cn/#/zh-CN/component/custom-theme
+/* @import "szkingdom.yf.koca-ui/packages/theme-chalk/src/index.scss"; */
+
+// 自定义图标样式
+// @import "./iconfont/kui-icon";
+
+// 自定义全局滚动条样式
+@import "./scrollbar.scss";
+
+// 层级问题临时处理
+// 修复kui处理z-index错误问题
+[data-mode="mirco"] .el-popper {
+  z-index: 300001 !important;
+}
+
+[data-mode="mirco"] .el-message-box__wrapper {
+  z-index: 300002 !important;
+}
+
+// 临时修复

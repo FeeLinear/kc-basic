@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="912px" height="323px" viewBox="0 0 912 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>右上</title>
+    <defs>
+        <linearGradient x1="50%" y1="47.2331955%" x2="40.9264299%" y2="56.8326097%" id="linearGradient-1">
+            <stop stop-color="#C3EDFF" offset="0%"></stop>
+            <stop stop-color="#C3EDFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-15.1%" y="-33.9%" width="130.2%" height="167.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="62.9547929%" y1="21.2973625%" x2="54.3260414%" y2="64.3920116%" id="linearGradient-3">
+            <stop stop-color="#DFE0FF" stop-opacity="0.0195039336" offset="0%"></stop>
+            <stop stop-color="#DFE0FF" offset="100%"></stop>
+            <stop stop-color="#DFE0FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-43.7%" y="-24.1%" width="187.4%" height="148.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="异常页-浏览器版本不兼容" transform="translate(-528.000000, 0.000000)">
+            <g id="编组-2" transform="translate(-163.161954, -229.000000)">
+                <path d="M1367.9128,356.087302 C1402.64097,356.087302 1479.34545,446.494192 1511.42521,442.17956 C1680.35113,419.459521 1764.16195,295.024648 1764.16195,201.5 C1764.16195,90.2146229 1587.76215,0 1370.16195,0 C1152.56176,0 769.620739,68.275404 769.620739,179.560781 C769.620739,246.577295 883.657062,275.47764 1090.16195,312.832571 C1226.57217,337.507987 1282.16195,322.248442 1367.9128,356.087302 Z" id="椭圆形" fill="url(#linearGradient-1)" filter="url(#filter-2)"></path>
+                <path d="M389.084469,-63.4918693 C171.484277,-63.4918693 291.062838,337.162696 291.062838,448.448073 C291.062838,515.464587 276.804574,520.711543 483.309466,558.066475 C488.840877,559.067059 570.432552,535.600693 574.983955,534.994183 C602.265704,531.358675 613.528663,534.899366 583.983955,507.887563 C549.100764,475.994953 468.94609,409.717756 458.718366,357.171662 C443.414649,278.547072 482.523789,-63.4918693 389.084469,-63.4918693 Z" id="椭圆形备份-3" fill="url(#linearGradient-3)" filter="url(#filter-4)" transform="translate(429.867229, 247.302856) rotate(90.000000) translate(-429.867229, -247.302856) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

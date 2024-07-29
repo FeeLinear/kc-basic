@@ -1,0 +1,77 @@
+@import './theme-variables.scss';
+
+$bg-color-dark: #1c1c1c;
+$bg-color-light: #ffffff;
+$bg-color-blue: #0F2B60;
+
+// frame
+// sidebar 左边菜单
+$sidebar-width: 220px; //菜单宽度
+$sidebar-mix-width: 100px; //混合模式一级菜单宽度
+$sidebar-multi-level-mix-width: 132px; //多级混合模式一级菜单宽度
+$sidebar-collapsed-width: 54px; //菜单折叠后的宽度
+$sidebar-total-width: 320px; //混合模式下一二级菜单总宽度（sidebar-width + sidebar-mix-width）
+$sidebar-collapsed-total-width: 274px; //混合模式折叠状态下一二级菜单总宽度（sidebar-width + sidebar-collapsed-width）
+$sidebar-label-width: 144px; //菜单文字最大的宽度
+$sidebar-item-width: 180px; //菜单展开的宽度
+//$sidebar-bgcolor: var(--sidebar-bgcolor); //侧边菜单背景
+/* 侧边菜单---深色背景
+---------------------------*/
+$sidebar-bgcolor: #262C3D; //侧边菜单背景
+$sidebar-collapsed-bgcolor: #262C3D; //侧边菜单背景
+$sidebar-menu-item-bgcolor-active: rgba($--color-primary, 0.09) !default; //菜单项选中背景色
+$sidebar-menu-icon-color: #FFFFFF; //菜单项图标选中颜色
+$sidebar-menu-icon-color-active: $--color-primary; //菜单项图标选中颜色
+$sidebar-menu-font-color: #FFFFFFA6;
+$sidebar-menu-font-color-active: #FFFFFF;
+$sidebar-menu-icon-bgcolor-active: #E3EAFD;
+/* 侧边菜单---浅色背景
+---------------------------*/
+
+
+$sidebar-menu-icon-size: 14px; //菜单项图标大小
+$sidebar-menu-text-size: 14px; //菜单项字体大小;
+$sidebar-menu-item-easy-height: 42px;
+$sidebar-menu-item-tight-height: 38px;
+$sidebar-footer-height: 42px;
+
+
+
+// 二级面板 popMenuPanel
+$pop-menu-panel-width: 48px;
+
+
+
+//tabnav  页签菜单
+$tabnav-height: 28px;
+$tabnav-fontsize: 13px;
+$tabnav-font-color: #66686C;
+$tabnav-font-color-active: #000;
+$tabnav-bgcolor: #ffffff;
+// 颜色混合，如果有换肤机制，但同样使用混合，通过修改比例来自定义
+$tabnav-bgcolor-active: rgba($--color-primary, 0.25) !default;
+$tabnav-bgcolor-hover: rgba($--color-primary, 0.08) !default;
+$tabnav-close-color: #C3C2CF;
+$tabnav-close-color-active: #66686C;
+$tabnav-iconhome-color: $--color-primary;
+
+$layout-main-bgcolor: #EAEDF2 !default;
+$content-margin: 12px;
+$bgcolor-light-active: #F3FBFF; // 选择块选中的背景色
+
+// topbar 页头导航条
+$topbar-height: 48px; // 页头导航条高度
+$topbar-bgcolor: #FFFFFF; // 页头导航条背景色
+$topbar-menu-bgcolor:#262C3D;
+$topbar-menu-active-bgcolor:#273352;
+$topbar-menu-icon-color:#AAB0BC;
+$topbar-menu-text-color:#AAB0BC;
+$topbar-menu-active-text-color:#fff;
+$topbar-menu-item-height: $topbar-height;
+
+
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+// 宽松&紧凑
+$--input-height-easy: 32px;
+$--input-height-tight: 28px;

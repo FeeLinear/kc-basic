@@ -1,0 +1,21 @@
+ {
+  "ENABLE_BASE_URL": true,
+  "BASE_URL": "",
+  "TIMEOUT": 5000,
+  "ENABLE_API_ENCRYPT": false,
+
+  "API_PREFIX": {
+    "AUTH_URL_PREFIX": "auth/",
+    "PARAM_URL_PREFIX": "admin/",
+    "USER_URL_PREFIX": "admin/",
+    "TENANT_URL_PREFIX": "admin/"
+  },
+
+  "APP_SETTINGS": {
+    "LOGIN_CHECK": true,
+    "JWT_TOKEN_ENABLE": false,
+    "CONTENT_MARK": true,
+    "SSO_LOGIN": false
+  }
+
+}

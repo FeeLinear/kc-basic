@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>硬件插件下载</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: linear-gradient(0deg, #EAF0FA 0%, #EDF0F6 100%);
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-size: 16px;
+    }
+    .container-top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 960px;
+      height: 80px;
+      background: #8797AE;
+      border-radius: 12px 12px 0px 0px;
+      color: #F5F5F5;
+    }
+    .container-top__tip {
+      color: #3F1B02;
+      background: #F3B03A;
+    }
+    .container-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 960px;
+      height: 139px;
+      background: #F9FBFF;
+      border-radius: 0px 0px 12px 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-top">
+      <span>您好，系统检测到您的设备</span>
+      <span class="container-top__tip">缺少必要的硬件信息插件</span>
+      <span>，为了确保系统的正常运行，请您下载并安装该插件后继续使用。</span>
+    </div>
+    <div class="container-bottom">
+      <a class="container-bottom__download">KOCA硬件插件及用户手册下载</a>
+    </div>
+  </div>
+  <script>
+    (function() {
+      const downloadSrc = localStorage.getItem("__HARDWARE_DOWNLOAD_SRC__");
+      const aDom = document.querySelector(".container-bottom__download");
+      aDom && aDom.setAttribute("href", downloadSrc);
+    })();
+  </script>
+</body>
+</html>

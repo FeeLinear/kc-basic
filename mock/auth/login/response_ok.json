@@ -1,0 +1,14 @@
+{
+  "code": "0",
+  "msg": "登录成功!",
+  "detail": "",
+  "head": {},
+  "body": {
+    "user_id": 8888,
+    "user_name": "超级用户",
+    "org_id": 123,
+    "org_name": "xx部门",
+    "last_login_time": "2019-01-02 13:12:12",
+    "default_sys_code": "koca"
+  }
+}

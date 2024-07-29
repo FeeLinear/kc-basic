@@ -1,0 +1,16 @@
+node_modules/**
+mock/**
+public/**
+build/**
+src/shims-vue.d.ts
+src/shims-tsx.d.ts
+src/vue.d.ts
+src/types/shims-vue.d.ts
+src/types/shims-tsx.d.ts
+src/types/vue.d.ts
+vue.config.js
+microapp.config.js
+src/projects/admin-business/views/business/design/bpmn-js/**
+src/projects/admin-business/views/business/design/custom-modeler/**
+src/projects/admin-document/views/excel/component/luckysheet/**
+src/projects/admin-video-chat/views/components/openvidu-browser-2.20.0.js

@@ -1,0 +1,18 @@
+{
+  "code": "0",
+  "msg": "请求处理成功",
+  "detail": "",
+  "head": {},
+  "body": [
+      {
+          "apiVersion": "1.0.0",
+          "apiCode": "modifyApp",
+          "appId": 100002,
+          "serviceId": 100000,
+          "apiTokenCat": "1",
+          "apiType": "3",
+          "API_NAME": "修改应用",
+          "ROW_ID": 1
+      }
+  ]
+}

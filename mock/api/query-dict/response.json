@@ -1,0 +1,4168 @@
+{
+  "code": "0",
+  "msg": "请求处理成功",
+  "detail": "",
+  "head": {},
+  "body": [
+    {
+      "dictCode": "ADMIT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "业务办理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ADMIT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "业务审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012097",
+      "dictItemName": "两网及退市公司股份确权",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012098",
+      "dictItemName": "股转股份非交易过户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012099",
+      "dictItemName": "股转股份司法冻结解冻",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012102",
+      "dictItemName": "股转限售股转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012288",
+      "dictItemName": "一码通账户开立",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012289",
+      "dictItemName": "一码通账户产品开立",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012290",
+      "dictItemName": "证券账户开立",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012291",
+      "dictItemName": "一码通账户注销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012292",
+      "dictItemName": "证券账户注销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012293",
+      "dictItemName": "账户注册资料修改",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012294",
+      "dictItemName": "合伙人信息维护",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012295",
+      "dictItemName": "休眠账户激活",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012296",
+      "dictItemName": "不合格账户解除限制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012297",
+      "dictItemName": "证券账户挂失解除",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012299",
+      "dictItemName": "证券账户使用信息维护",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012300",
+      "dictItemName": "证券账户关联关系维护",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012301",
+      "dictItemName": "账户资料核对",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012302",
+      "dictItemName": "沪市B股账户指定交易",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012303",
+      "dictItemName": "沪市B股变更结算会员",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012304",
+      "dictItemName": "沪市B股变更结算会员撤销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012305",
+      "dictItemName": "沪市跨市场补登记",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012306",
+      "dictItemName": "沪市股份司法冻结",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012307",
+      "dictItemName": "沪市股份司法解冻",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012308",
+      "dictItemName": "沪市股份当日冻结撤销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012311",
+      "dictItemName": "深市跨市场补登记",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012312",
+      "dictItemName": "深市股份司法冻结",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012313",
+      "dictItemName": "深市股份司法解冻",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012314",
+      "dictItemName": "深市债券跨市场转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012316",
+      "dictItemName": "深市限售股转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012407",
+      "dictItemName": "深市转托管出错调整",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012420",
+      "dictItemName": "沪市债券跨市场转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012421",
+      "dictItemName": "沪市债券跨市场转托管撤销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012423",
+      "dictItemName": "股转转托管出错调整",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_BIZ_CODE",
+      "orgCode": "-1",
+      "dictItem": "10012459",
+      "dictItemName": "信息批量查询申请",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "上海登记业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "深圳登记业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "股转登记业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AJAX_CSDC_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "中登账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopAcceptJobGroup",
+      "dictItemName": "业务受理任务组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopAcmtStatisGroup",
+      "dictItemName": "考核统计任务组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopDailyGatherGroup",
+      "dictItemName": "日间数据采集组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopDenpedencyJobGroup",
+      "dictItemName": "隔日处理任务组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopOverSettleGroup",
+      "dictItemName": "日终清算任务组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "AUTO_TASK_GROUP",
+      "orgCode": "-1",
+      "dictItem": "KdopProcessJobGroup",
+      "dictItemName": "业务流程任务组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BATCH_YN",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "否",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BATCH_YN",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "是",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BIZ_RES_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BIZ_RES_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "外部系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "普通业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "外部客户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "免密码业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "冻结客户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "销户客户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "代理中登",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "预录入业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_SCOPE",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "VTM业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "常用业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "开户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "销户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "全部业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "预约业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "BUSI_TYPE",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "移动双录业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "未抽检",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "正在抽检",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_FLAG",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "抽检不通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_FLAG",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "抽检通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "待复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "复核中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "复核不通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "复核通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "已撤单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CHECK_STATUS",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "超时未复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CONDITION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "普通条件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "CONDITION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "原子业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "查询",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "新增",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "修改",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "删除",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "校验",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_OP_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "数据加工",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "字符",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "整数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "字符串",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "浮点数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DATA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "时间",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DELETE_IS_EFFECT",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "无效",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DELETE_IS_EFFECT",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "有效",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DICT_LVL",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "高",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DICT_LVL",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "DICT_LVL",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "低",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "客户代码",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "资金账号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "磁卡编号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "证件号码",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "股东账号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_CUST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "用户姓名",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_DICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "管理类型",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_DICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "业务类型",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_DICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "字典级别",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_SYSPARAM_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "管理类型",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_SYSPARAM_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "参数类型",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EMP_SYSPARAM_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "参数小类",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "未纠错",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "正在纠错",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "纠错失败",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "纠错成功",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_SUB_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "纠错级别扣分制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "错误类型1",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "错误类型2",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ERROR_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "错误类型3",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_MODE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "每天",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_MODE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "每周",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_MODE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "每月",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_MODE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "每季",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_MODE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "每年",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "执行中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "EXEC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "执行完成",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "BMP",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "JPG",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "GIF",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "TIF",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "MP4",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMAGE_FMT",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "PDF",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "QQ",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "MSN",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "飞信",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_ALLOW_ADD",
+      "orgCode": "-1",
+      "dictItem": "x053",
+      "dictItemName": "其他补充证明材料",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "多易拍",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "扫描仪",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "摄像头",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "视频见证",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "单向视频",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "电子签名",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "电子协议",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "电子申请表",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "打印盖章",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IMG_GET_MODE",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "纸质签名录制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_CHECK",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "否",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_CHECK",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "是",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_ERROR",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "否",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_ERROR",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "是",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_TAXFREE",
+      "orgCode": "-1",
+      "dictItem": "N",
+      "dictItemName": "非特殊经济区内",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "IS_TAXFREE",
+      "orgCode": "-1",
+      "dictItem": "Y",
+      "dictItemName": "特殊经济区内企",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LAND_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "事后审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LAND_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "事前审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LIMIT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "允许",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LIMIT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "禁止",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LOGIC_OPER",
+      "orgCode": "-1",
+      "dictItem": "!",
+      "dictItemName": "不是",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LOGIC_OPER",
+      "orgCode": "-1",
+      "dictItem": "&&",
+      "dictItemName": "并且",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "LOGIC_OPER",
+      "orgCode": "-1",
+      "dictItem": "||",
+      "dictItemName": "或者",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MAINTAIN_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "显示",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MAINTAIN_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "修改",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MAINTAIN_FLAG",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "新增",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MAINTAIN_FLAG",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "删除",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MAINTAIN_FLAG",
+      "orgCode": "-1",
+      "dictItem": "@",
+      "dictItemName": "所有操作",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MANA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "业务类",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MANA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "系统类",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "系统菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "临柜业务菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "非临柜业务菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "查询模块",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "员工菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "查询统计",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "VTM菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "a",
+      "dictItemName": "预录入菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_PUR",
+      "orgCode": "-1",
+      "dictItem": "b",
+      "dictItemName": "网厅菜单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_STA",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "未启用",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "MENU_STA",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "启用",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_MODE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "默认",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_MODE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "统一",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_MODE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "分节点",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_RESULT",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "驳回",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_RESULT",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_RESULT",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "作废",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "NODE_RESULT",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "取消认领",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": "!=",
+      "dictItemName": "不等于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": "<",
+      "dictItemName": "小于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": "<=",
+      "dictItemName": "小于等于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": "==",
+      "dictItemName": "等于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": ">",
+      "dictItemName": "大于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_CHAR",
+      "orgCode": "-1",
+      "dictItem": ">=",
+      "dictItemName": "大于等于",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "contains",
+      "dictItemName": "包含",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "dateOverdue",
+      "dictItemName": "日期过期",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "indexOf",
+      "dictItemName": "包含",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "isNumNull",
+      "dictItemName": "数字为空",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "isStrNull",
+      "dictItemName": "字符串为空",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "length",
+      "dictItemName": "长度",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPER_METHOD",
+      "orgCode": "-1",
+      "dictItem": "strToInt",
+      "dictItemName": "数值",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "客户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "子系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "强开协议",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "影像下载",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "机构群组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ACCEPT_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "a",
+      "dictItemName": "操作渠道",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "普通账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "交易权限业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "证券投资基金业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "代理中登查询业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "04",
+      "dictItemName": "代理中登账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "05",
+      "dictItemName": "双录业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "06",
+      "dictItemName": "信用账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "07",
+      "dictItemName": "期权账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "09",
+      "dictItemName": "公共业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "80",
+      "dictItemName": "非现场业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "97",
+      "dictItemName": "通用业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "98",
+      "dictItemName": "权限管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_CLS",
+      "orgCode": "-1",
+      "dictItem": "99",
+      "dictItemName": "参数管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "普通业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "基金业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "信用业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "期权业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "04",
+      "dictItemName": "外部接入",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "97",
+      "dictItemName": "通用业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "98",
+      "dictItemName": "权限管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUSI_QULF",
+      "orgCode": "-1",
+      "dictItem": "99",
+      "dictItemName": "参数管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "经纪业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "创业板",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "港股通",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "私募业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "04",
+      "dictItemName": "柜台市场业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "05",
+      "dictItemName": "股票期权业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "06",
+      "dictItemName": "融资融券业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "07",
+      "dictItemName": "认购或申购场外开放式基金、基金专项子计划、资管理财产品",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "08",
+      "dictItemName": "基金转换",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "09",
+      "dictItemName": "基金定投",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "基金业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "10",
+      "dictItemName": "购买投顾产品或接受投顾服务时",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "11",
+      "dictItemName": "账户业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "12",
+      "dictItemName": "双录业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "15",
+      "dictItemName": "场外业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "18",
+      "dictItemName": "资金业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "债券业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "20",
+      "dictItemName": "期权业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "证券业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "影像业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "指纹",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "外部系统对接",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "98",
+      "dictItemName": "字段显示控制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_BUS_TYPE",
+      "orgCode": "-1",
+      "dictItem": "99",
+      "dictItemName": "其他",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "客户销户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "资产账户销户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "股东账户销户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "基金账户销户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "04",
+      "dictItemName": "基金转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "05",
+      "dictItemName": "撤指定",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_CLS",
+      "orgCode": "-1",
+      "dictItem": "06",
+      "dictItemName": "全体转托管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_MODE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "同机复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_CHECK_MODE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "异机复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_COMPLIANCE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "未合规",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_COMPLIANCE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "合规中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_COMPLIANCE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "合规通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_COMPLIANCE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "合规不通过",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_DOCK_TYPE",
+      "orgCode": "-1",
+      "dictItem": "A",
+      "dictItemName": "中投OA",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_HTML_PAPER",
+      "orgCode": "-1",
+      "dictItem": "14D",
+      "dictItemName": "金融产品或服务风险警示及投资者确认书",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_HTML_PAPER",
+      "orgCode": "-1",
+      "dictItem": "14P",
+      "dictItemName": "产品或服务不适当警示及投资者确认书",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_HTML_PAPER",
+      "orgCode": "-1",
+      "dictItem": "csdc01",
+      "dictItemName": "证券账户开立",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_HTML_PAPER",
+      "orgCode": "-1",
+      "dictItem": "csdc02",
+      "dictItemName": "证券账户业务申请",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_GROUP",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "业务确认表",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_GROUP",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "对账单",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "A3纸",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "A4纸",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "二代身份证",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_IMG_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "自定义",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "公共参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "岗位",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "业务参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "机构群组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MANAGE_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "A",
+      "dictItemName": "操作权限",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KBOS",
+      "dictItemName": "金证经纪订单系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KCOS",
+      "dictItemName": "金证交易服务中台",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KFMS",
+      "dictItemName": "资金管理系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KFOS",
+      "dictItemName": "金证快速订单系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KIDM",
+      "dictItemName": "影像档案系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KOTC",
+      "dictItemName": "OTC业务系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KSOT",
+      "dictItemName": "股票期权系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MENU_SUBSYS",
+      "orgCode": "-1",
+      "dictItem": "KTRC",
+      "dictItemName": "风控平台中心",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MONITOR_CTRL_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "不控制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MONITOR_CTRL_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "提示",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MONITOR_CTRL_FLAG",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "禁止",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MONITOR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "正常",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MONITOR_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "撤销",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_CLS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "文本",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_CLS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "附件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "编辑中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "待审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "审核中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "发布中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "驳回",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "已发布",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "未查看",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_MSG_STATUS",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "已查看",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_NO_TAXPAYERID_REASON",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "居民国(地区)不发放纳税人识别号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_NO_TAXPAYERID_REASON",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "账户持有人未能取得纳税人识别号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "产品模块",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "产品接口",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "正常",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "即将过期",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "已过期",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_OEM_STATUS",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "未购买",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ORG_NAME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "备案主体",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ORG_NAME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "控股股东",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ORG_NAME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "实际控制人",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ORG_NAME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "实际控制人控制的其他信息技术服务机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_ORG_NAME_TYPE",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "其他",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PERMISSION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "受理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PERMISSION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PERMISSION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "查询",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PERMISSION_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "addressInput",
+      "dictItemName": "地址组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "checker",
+      "dictItemName": "单选框组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "date",
+      "dictItemName": "日期组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "normalinput",
+      "dictItemName": "输入框组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "selector",
+      "dictItemName": "选择框组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_PRE_FIELD_TYPE",
+      "orgCode": "-1",
+      "dictItem": "telephone",
+      "dictItemName": "电话组件",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_QUERY_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_QUERY_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "机构群组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_REFRESH_CSDC_CACHE",
+      "orgCode": "-1",
+      "dictItem": "07",
+      "dictItemName": "证券账户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_REFRESH_CSDC_CACHE",
+      "orgCode": "-1",
+      "dictItem": "08",
+      "dictItemName": "一码通账户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_REVIEW_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_REVIEW_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "机构群组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_REVIEW_PERMISSION",
+      "orgCode": "-1",
+      "dictItem": "B",
+      "dictItemName": "业务资料模块",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SCOPE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SCOPE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "机构群组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SCOPE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "员工",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SOUND_HANDLE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "语音",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SOUND_HANDLE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "人工",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SUPPLY_COLLECT_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "否",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SUPPLY_COLLECT_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "是",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SUPPLY_COLLECT_FLAG",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "已补采",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SYNC_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "未同步",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_SYNC_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "已同步",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TRAINEE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "正常",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TRAINEE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "解除",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TRAINEE_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "出师",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TRDACCT_OPEN_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "加挂",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TRDACCT_OPEN_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "新开",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TUTOR_LVL",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "普通导师",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TUTOR_LVL",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "中级导师",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TUTOR_LVL",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "高级导师",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_TUTOR_LVL",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "资深导师",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_VOICE_ACCENT",
+      "orgCode": "-1",
+      "dictItem": "cantonese",
+      "dictItemName": "广东话-粤语",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_VOICE_ACCENT",
+      "orgCode": "-1",
+      "dictItem": "changshanese",
+      "dictItemName": "湖南话-长沙话",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_VOICE_ACCENT",
+      "orgCode": "-1",
+      "dictItem": "lmz",
+      "dictItemName": "四川话",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_VOICE_ACCENT",
+      "orgCode": "-1",
+      "dictItem": "mandarin",
+      "dictItemName": "普通话",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OPP_VOICE_ACCENT",
+      "orgCode": "-1",
+      "dictItem": "shanghainese",
+      "dictItemName": "上海话",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "00",
+      "dictItemName": "所属营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "所属分公司下属营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "所有营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "10",
+      "dictItemName": "营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "11",
+      "dictItemName": "分公司",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "12",
+      "dictItemName": "总部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "13",
+      "dictItemName": "客户所属营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ORG_PATTERN",
+      "orgCode": "-1",
+      "dictItem": "14",
+      "dictItemName": "受理营业部",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OTHER_PROVE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "金融投资经历证明",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OTHER_PROVE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "金融工作经历证明",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OTHER_PROVE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "金融公司高管任职证明",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "OTHER_PROVE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "金融资格认证证明",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_CLS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "资料",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_CLS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_CLS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "协议",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_CLS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "接口",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "整形",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "字符串",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PARA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "数组",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "报盘参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "自动升级路径",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "批量结息参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "实时开户参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "券商基本参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "数据导出参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "清算选项",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "打印控制参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "基金参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "交易参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "A",
+      "dictItemName": "客户经理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "B",
+      "dictItemName": "查询参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "C",
+      "dictItemName": "三方存管参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "D",
+      "dictItemName": "融资融券参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "E",
+      "dictItemName": "创业板参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "F",
+      "dictItemName": "帐户类参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "G",
+      "dictItemName": "安全认证参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "H",
+      "dictItemName": "股票质押参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "I",
+      "dictItemName": "约定购回参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "J",
+      "dictItemName": "公共业务参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "K",
+      "dictItemName": "外围系统参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "V",
+      "dictItemName": "VIP系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "a",
+      "dictItemName": "账户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PAR_CLS",
+      "orgCode": "-1",
+      "dictItem": "z",
+      "dictItemName": "资金管理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_CUST",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "内部机构",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_CUST",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "员工代码",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_CUST",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "岗位代码",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "机构代码",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "客户账号",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "子系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "公共参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "数据字典",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "岗位",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "强制开通协议",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "影像下载",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "业务参数",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PERMISSION_CLS_EMP",
+      "orgCode": "-1",
+      "dictItem": "a",
+      "dictItemName": "操作渠道",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "影像上传",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "个人信息",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "10",
+      "dictItemName": "服务模板",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "11",
+      "dictItemName": "协议签署",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "视频见证",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "账户信息",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "全景账户",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "三方存管",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "密码设置",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "风险测评",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "投教",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PI_REJECT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "在线回访",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PLAT_THEME",
+      "orgCode": "-1",
+      "dictItem": "bright",
+      "dictItemName": "清新互联网风格",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PLAT_THEME",
+      "orgCode": "-1",
+      "dictItem": "web2",
+      "dictItemName": "web2风格",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PLAT_THEME",
+      "orgCode": "-1",
+      "dictItem": "win8",
+      "dictItemName": "win8风格",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "普通受理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "专业受理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "业务审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "抽检处理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "差错处理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "管理类",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "财务审批",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "POST_TYPE",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "其他",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PRIO_LVL",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "高",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PRIO_LVL",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PRIO_LVL",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "低",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "01",
+      "dictItemName": "受理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "02",
+      "dictItemName": "预受理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "03",
+      "dictItemName": "待审批",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "04",
+      "dictItemName": "审批中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "05",
+      "dictItemName": "待审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "06",
+      "dictItemName": "审核中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "07",
+      "dictItemName": "待复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "08",
+      "dictItemName": "复核中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "09",
+      "dictItemName": "待差错处理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "10",
+      "dictItemName": "差错处理中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "11",
+      "dictItemName": "驳回",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "12",
+      "dictItemName": "预受理驳回",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "13",
+      "dictItemName": "完成",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "14",
+      "dictItemName": "挂起",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "15",
+      "dictItemName": "作废",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "16",
+      "dictItemName": "待确认",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "17",
+      "dictItemName": "失败",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "18",
+      "dictItemName": "受理提交中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "19",
+      "dictItemName": "待自动处理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "20",
+      "dictItemName": "自动处理中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "22",
+      "dictItemName": "待定时处理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "23",
+      "dictItemName": "待双录",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "24",
+      "dictItemName": "待双录审核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "25",
+      "dictItemName": "自动受理驳回",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "PROC_STATUS",
+      "orgCode": "-1",
+      "dictItem": "26",
+      "dictItemName": "会审中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "无过错",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "轻微",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "严重",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "非常严重",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REASON_LVL",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "致命",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REJECT_SUB_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "扣分制",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "中登系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "银行系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "基金公司服务系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "交易系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "中登身份校验系统",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "债券业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "股转业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "8",
+      "dictItemName": "B股业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RELATE_SYS",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "个税递延业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RESTRICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "拒绝",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RESTRICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "禁止",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RESTRICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "警告",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "RESTRICT_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "提示",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REUSE_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "不重用",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REUSE_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "可重用",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REVIEW_FLAG",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "不复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "REVIEW_FLAG",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "复核",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STAT",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "关闭",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STAT",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "正常",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "正常运行",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "正在初始化",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "正在清算",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "正在交收",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "9",
+      "dictItemName": "已交收尚未初始化",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "SYS_STATUS",
+      "orgCode": "-1",
+      "dictItem": "99",
+      "dictItemName": "测试中",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "UNCLAIM_IS_EFFECT",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "无效",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "UNCLAIM_IS_EFFECT",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "有效",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "UNDER_AGE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "遗产继承",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "UNDER_AGE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "公司股东",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "UNDER_AGE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "有劳动收入",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "VTM_OPER_POSTID",
+      "orgCode": "-1",
+      "dictItem": "13",
+      "dictItemName": "VTM虚拟柜员",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "远程业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "临柜业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "非临柜业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "预录入业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "VTM业务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "5",
+      "dictItemName": "网上委托",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "6",
+      "dictItemName": "手机委托",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "YZT_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "7",
+      "dictItemName": "智能移动助理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ZD_OP_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "业务办理",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ZD_OP_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "代理中登",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "ZD_OP_CHANNEL",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "管理平台",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_API_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "GET",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_API_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "POST",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_API_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "PUT",
+      "dictOrd": 2,
+      "remark": null
+    },
+    {
+      "dictCode": "API_API_TYPE",
+      "orgCode": "-1",
+      "dictItem": "4",
+      "dictItemName": "DELETE",
+      "dictOrd": 3,
+      "remark": null
+    },
+    {
+      "dictCode": "API_BEX_PAGE_ABLE",
+      "orgCode": "-1",
+      "dictItem": "0",
+      "dictItemName": "不分页",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_BEX_PAGE_ABLE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "分页",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_BEX_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "SP",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_BEX_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "LBM",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_BEX_TYPE",
+      "orgCode": "-1",
+      "dictItem": "3",
+      "dictItemName": "JAVABEAN",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_EXAMPLE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "请求示例",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_EXAMPLE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "响应示例",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_PARA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "入参",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_PARA_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "出参",
+      "dictOrd": 1,
+      "remark": null
+    },
+    {
+      "dictCode": "API_SERVICE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "1",
+      "dictItemName": "公共服务",
+      "dictOrd": 0,
+      "remark": null
+    },
+    {
+      "dictCode": "API_SERVICE_TYPE",
+      "orgCode": "-1",
+      "dictItem": "2",
+      "dictItemName": "私有服务",
+      "dictOrd": 1,
+      "remark": null
+    }
+  ]
+}

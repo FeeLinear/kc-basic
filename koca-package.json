@@ -1,0 +1,17 @@
+{
+  "archetype": {
+    "name": "koca-template",
+    "packageName": "szkingdom.yf.koca-template",
+    "desc": "标准版"
+  },
+  "archetype_version": "3.8.3-2",
+  "modules": [
+    {
+      "name": "admin-basic",
+      "desc": "基础管理",
+      "packageName": "szkingdom.yf.admin-basic",
+      "version": "3.7.7",
+      "type": "source"
+    }
+  ]
+}

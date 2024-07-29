@@ -1,0 +1,136 @@
+{
+  "menuId": "api_0000",
+  "menuType": "1",
+  "menuName": "API管理",
+  "menuUrl": "api_manage",
+  "menuIcon": "el-icon-set-up",
+  "loadType": "",
+  "children": [
+    {
+      "menuId": "api_0100",
+      "menuType": "0",
+      "menuName": "对象维护",
+      "menuUrl": "",
+      "menuIcon": "",
+      "loadType": "",
+      "children": [
+        {
+          "menuId": "api_0101",
+          "menuType": "0",
+          "menuName": "应用维护",
+          "menuUrl": "/api/maintenance/AppMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0102",
+          "menuType": "0",
+          "menuName": "服务维护",
+          "menuUrl": "/api/maintenance/ServiceMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0103",
+          "menuType": "0",
+          "menuName": "API接口维护",
+          "menuUrl": "/api/maintenance/ApiMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0104",
+          "menuType": "0",
+          "menuName": "API接口参数维护",
+          "menuUrl": "/api/maintenance/ApiParamsMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0105",
+          "menuType": "0",
+          "menuName": "BEX接口维护",
+          "menuUrl": "/api/maintenance/BexMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0106",
+          "menuType": "0",
+          "menuName": "BEX接口参数维护",
+          "menuUrl": "/api/maintenance/BexParamsMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0107",
+          "menuType": "0",
+          "menuName": "翻译项维护",
+          "menuUrl": "/api/maintenance/TranslationMaintenance.vue",
+          "menuIcon": "",
+          "loadType": ""
+        }
+      ]
+    },
+    {
+      "menuId": "api_0200",
+      "menuType": "0",
+      "menuName": "对象管理",
+      "menuUrl": "",
+      "menuIcon": "",
+      "loadType": "",
+      "children": [
+        {
+          "menuId": "api_0201",
+          "menuType": "0",
+          "menuName": "应用服务管理",
+          "menuUrl": "/api/manage/AppServiceManage.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0202",
+          "menuType": "0",
+          "menuName": "服务API接口管理",
+          "menuUrl": "/api/manage/AppApiManage.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0203",
+          "menuType": "0",
+          "menuName": "服务BEX接口管理",
+          "menuUrl": "/api/manage/ServieBexManage.vue",
+          "menuIcon": "",
+          "loadType": ""
+        }
+      ]
+    },
+    {
+      "menuId": "api_0300",
+      "menuType": "0",
+      "menuName": "API查询",
+      "menuUrl": "",
+      "menuIcon": "",
+      "loadType": "",
+      "children": [
+        {
+          "menuId": "api_0301",
+          "menuType": "0",
+          "menuName": "API接口查询",
+          "menuUrl": "/api/query/ApiQuery.vue",
+          "menuIcon": "",
+          "loadType": ""
+        },
+        {
+          "menuId": "api_0302",
+          "menuType": "0",
+          "menuName": "BEX接口查询",
+          "menuUrl": "/api/query/BexQuery.vue",
+          "menuIcon": "",
+          "loadType": ""
+        }
+      ]
+    }
+  ]
+}

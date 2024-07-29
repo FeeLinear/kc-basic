@@ -1,0 +1,23 @@
+{
+  "ENABLE_BASE_URL": true,
+  "BASE_URL": "",
+  "TIMEOUT": 5000,
+  "ENABLE_API_ENCRYPT": false,
+  "API_PREFIX": {
+    "AUTH_URL_PREFIX": "auth/",
+    "PARAM_URL_PREFIX": "sale-master/",
+    "USER_URL_PREFIX": "admin/",
+    "TENANT_URL_PREFIX": "admin/"
+  },
+  "APP_SETTINGS": {
+    "LOGIN_CHECK": false,
+    "JWT_TOKEN_ENABLE": true,
+    "CONTENT_MARK": true,
+    "SSO_LOGIN": false
+  },
+  "SSO_LOGIN_PATH": "",
+  "SSO_LOGOUT_PATH": "",
+  "VERSION": "1.0.0",
+  "GEHEIME_SLEUTEL": "saglerj#G^@",
+  "HARDWARE_EXTEND": ""
+}

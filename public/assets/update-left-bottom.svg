@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="460px" viewBox="0 0 359 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>左下</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="68.2333625%" id="linearGradient-1">
+            <stop stop-color="#FFE3F1" stop-opacity="0.129962201" offset="0%"></stop>
+            <stop stop-color="#FFE3F1" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-33.1%" y="-34.4%" width="166.2%" height="168.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="异常页-浏览器版本不兼容" transform="translate(0.000000, -440.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-2" transform="translate(-163.161954, -229.000000)">
+                <path d="M416.069043,763.930957 C342.1897,763.930957 286.841841,964.298812 196.302131,979.050608 C20.1711084,1007.74795 17.6559566,1068.40075 17.6559566,1141.90266 C17.6559566,1208.91917 -86.490599,1162.12421 120.014293,1199.47914 C191.229183,1212.36129 282.606291,1050.77571 400.014293,1088.75757 C456.837476,1107.14006 456.837476,763.930957 416.069043,763.930957 Z" id="椭圆形备份-2" filter="url(#filter-2)" transform="translate(218.140802, 982.071759) rotate(90.000000) translate(-218.140802, -982.071759) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

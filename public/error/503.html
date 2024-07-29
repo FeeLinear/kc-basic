@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>服务器错误 503</title>
+</head>
+<body>
+    <div class="flex-box">
+      <div style="margin-right: 40px;">
+        <img width="344" src="./503.png" />
+      </div>
+      <div>
+        <p class="font-404-p2">系统升级中，请稍后再访问</p>
+        <a href="/">
+          <button class="button" style="margin-top: 34px">刷新</button>
+        </a>
+      </div>
+    </div>
+</body>
+<style>
+p{
+  margin: 0;
+}
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 48px - 28px - 16px * 4);
+}
+.font-404-p1{
+    color: #00ABEE;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 80px;
+  }
+  .font-404-p2{
+    font-size: 16px;
+    color: #333333;
+  }
+  .font-404-p3{
+    font-size: 13px;
+    color: #66686C;
+    margin-top: 7px;
+  }
+.button{
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  -webkit-transition: .1s;
+  transition: .1s;
+  font-weight: 500;
+  padding: 7px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+</style>
+</html>

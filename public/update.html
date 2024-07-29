@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>浏览器版本不兼容</title>
+</head>
+<body>
+  <div class="update">
+    <div class="left">
+      <img class="left-img" src="./assets/update.svg" />
+    </div>
+    <div class="right">
+      <h1 class="r-h1">浏览器版本不兼容</h1>
+      <p class="r-p">您正在使用的浏览器版本过低，无法正常浏览本网站。</p>
+      <p class="r-p">请升级您的浏览器或使用其他浏览器。</p>
+      <ul class="r-l">
+        <li class="r-l-item">
+          <a class="r-l-c r-l-a" href="https://www.google.cn/chrome/"></a>
+          <span>Chrome</span>
+        </li>
+        <li class="r-l-item">
+          <a class="r-l-e r-l-a" href="https://www.microsoft.com/edge"></a>
+          <span>Edge</span>
+        </li>
+        <li class="r-l-item">
+          <a class="r-l-f r-l-a" href="https://www.mozilla.org/firefox/"></a>
+          <span>Firefox</span>
+        </li>
+        <li class="r-l-item">
+          <a class="r-l-s r-l-a" href="https://www.apple.com/safari/"></a>
+          <span>Safari</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<style>
+.update{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./assets/update-rt-circle.svg") no-repeat 96% 6%,
+              url("./assets/update-left-top.svg") no-repeat left top,
+              url("./assets/update-left-bottom.svg") no-repeat left bottom,
+              url("./assets/update-right-top.svg") no-repeat right top,
+              url("./assets/update-right-bottom.svg") no-repeat right bottom;
+  background-color:#ffffff;
+  z-index: 9999;
+}
+.left {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+.left-img {
+  width: 500px;
+  height: 371px;
+  margin-right: 40px;
+}
+@media screen and (min-width: 1650px) {
+  .left-img {
+    margin-right: 65px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .left-img {
+    margin-right: 115px;
+  }
+}
+.right {
+  flex: 1;
+  min-height: 400px;
+  margin: auto 40px;
+  color: #0D1A2C;
+}
+@media screen and (min-width: 1650px) {
+  .right {
+    margin: auto 65px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .right {
+    margin: auto 115px;
+  }
+}
+.r-h1 {
+  height: 65px;
+  line-height: 65px;
+  margin-bottom: 36px;
+  font-size: 46px;
+}
+.r-p {
+  height: 28px;
+  line-height: 28px;
+  margin: 25px 0;
+  font-size: 20px;
+}
+.r-l {
+  display: flex;
+  max-width: 35%;
+  margin-top: 50px;
+}
+.r-l-item {
+  flex: 1;
+  height: 16px;
+  line-height: 16px;
+  padding-right: 66px;
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  list-style: none;
+}
+.r-l-a {
+  display: block;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 22px; 
+}
+.r-l-c {
+  background-image: url("./assets/chrome.svg");
+}
+.r-l-e {
+  background-image: url("./assets/edge.svg");
+}
+.r-l-f {
+  background-image: url("./assets/firefox.svg");
+}
+.r-l-s {
+  background-image: url("./assets/safari.svg");
+}
+</style>
+</html>

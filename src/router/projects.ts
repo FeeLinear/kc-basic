@@ -1,0 +1,23 @@
+/* eslint-disable */
+export const projects_routes = [
+  { path: "/admin-basic/views/param/Dict", component: () => import(/* webpackChunkName: "admin-basic_param" */ "@/projects/admin-basic/views/param/Dict.vue"), name: "Dict" },
+  { path: "/admin-basic/views/param/MenuManager", component: () => import(/* webpackChunkName: "admin-basic_param" */ "@/projects/admin-basic/views/param/MenuManager.vue"), name: "MenuManager" },
+  { path: "/admin-basic/views/param/Param", component: () => import(/* webpackChunkName: "admin-basic_param" */ "@/projects/admin-basic/views/param/Param.vue"), name: "Param" },
+  { path: "/admin-basic/views/setting/components/number", component: () => import(/* webpackChunkName: "admin-basic_setting_components" */ "@/projects/admin-basic/views/setting/components/number.vue"), name: "number" },
+  { path: "/admin-basic/views/setting/DateManage", component: () => import(/* webpackChunkName: "admin-basic_setting" */ "@/projects/admin-basic/views/setting/DateManage.vue"), name: "DateManage" },
+  { path: "/admin-basic/views/setting/OnlineUser", component: () => import(/* webpackChunkName: "admin-basic_setting" */ "@/projects/admin-basic/views/setting/OnlineUser.vue"), name: "OnlineUser" },
+  { path: "/admin-basic/views/setting/PasswordStrategy", component: () => import(/* webpackChunkName: "admin-basic_setting" */ "@/projects/admin-basic/views/setting/PasswordStrategy.vue"), name: "PasswordStrategy" },
+  { path: "/admin-basic/views/tenant/components/BaseInfo", component: () => import(/* webpackChunkName: "admin-basic_tenant_components" */ "@/projects/admin-basic/views/tenant/components/BaseInfo.vue"), name: "BaseInfo" },
+  { path: "/admin-basic/views/tenant/components/UserManage", component: () => import(/* webpackChunkName: "admin-basic_tenant_components" */ "@/projects/admin-basic/views/tenant/components/UserManage.vue"), name: "UserManage" },
+  { path: "/admin-basic/views/tenant/TenantConfig", component: () => import(/* webpackChunkName: "admin-basic_tenant" */ "@/projects/admin-basic/views/tenant/TenantConfig.vue"), name: "TenantConfig" },
+  { path: "/admin-basic/views/tenant/TenantManager", component: () => import(/* webpackChunkName: "admin-basic_tenant" */ "@/projects/admin-basic/views/tenant/TenantManager.vue"), name: "TenantManager" },
+  { path: "/admin-basic/views/user/components/UploadAvatar", component: () => import(/* webpackChunkName: "admin-basic_user_components" */ "@/projects/admin-basic/views/user/components/UploadAvatar.vue"), name: "UploadAvatar" },
+  { path: "/admin-basic/views/user/components/UserInfoDialog", component: () => import(/* webpackChunkName: "admin-basic_user_components" */ "@/projects/admin-basic/views/user/components/UserInfoDialog.vue"), name: "UserInfoDialog" },
+  { path: "/admin-basic/views/user/MessageManager", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/MessageManager.vue"), name: "MessageManager" },
+  { path: "/admin-basic/views/user/OrgInfoManager", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/OrgInfoManager.vue"), name: "OrgInfoManager" },
+  { path: "/admin-basic/views/user/OwnInfo", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/OwnInfo.vue"), name: "OwnInfo" },
+  { path: "/admin-basic/views/user/OwnInfo_old", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/OwnInfo_old.vue"), name: "OwnInfo_old" },
+  { path: "/admin-basic/views/user/OwnPwdChange", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/OwnPwdChange.vue"), name: "OwnPwdChange" },
+  { path: "/admin-basic/views/user/RoleInfoManager", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/RoleInfoManager.vue"), name: "RoleInfoManager" },
+  { path: "/admin-basic/views/user/UserInfoManager", component: () => import(/* webpackChunkName: "admin-basic_user" */ "@/projects/admin-basic/views/user/UserInfoManager.vue"), name: "UserInfoManager" },
+];

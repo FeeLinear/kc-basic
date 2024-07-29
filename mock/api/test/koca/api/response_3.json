@@ -1,0 +1,17 @@
+{
+  "code": "0",
+  "msg": "OK",
+  "detail": "",
+  "head": {},
+  "body": {
+    "field1": "value1",
+    "field2": "value2",
+    "field3": "value3",
+    "total": 123,
+    "userList": [
+      {"id": 1, "name": "name1"
+      },
+      {"id": 2, "name": "name2"}
+    ]
+  }
+}

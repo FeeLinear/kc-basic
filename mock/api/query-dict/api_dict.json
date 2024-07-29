@@ -1,0 +1,122 @@
+[
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "GET",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "POST",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "PUT",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "4",
+    "dictItemName": "DELETE",
+    "dictOrd": 3,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_PAGE_ABLE",
+    "orgCode": "-1",
+    "dictItem": "0",
+    "dictItemName": "不分页",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_PAGE_ABLE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "分页",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "SP",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "LBM",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "JAVABEAN",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_EXAMPLE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "请求示例",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_EXAMPLE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "响应示例",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "入参",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "出参",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_SERVICE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "公共服务",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_SERVICE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "私有服务",
+    "dictOrd": 1,
+    "remark": null
+  }
+]

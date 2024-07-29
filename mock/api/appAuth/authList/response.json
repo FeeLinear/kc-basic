@@ -1,0 +1,23 @@
+{
+  "code": "0",
+  "msg": "请求处理成功",
+  "detail": "",
+  "head": {},
+  "body": {
+      "total": 1,
+      "data": [
+          {
+              "serviceVersion": "1",
+              "creator": null,
+              "modifyTime": "22-11月-19",
+              "serviceCode": "ManageAPI",
+              "createTime": "22-11月-19",
+              "appKey": "1",
+              "modifyOper": null,
+              "serviceId": 100000,
+              "serviceName": "API接口管理",
+              "ROW_ID": 1
+          }
+      ]
+  }
+}

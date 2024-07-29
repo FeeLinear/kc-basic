@@ -1,0 +1,35 @@
+{
+  "code": "0",
+  "msg": "",
+  "detail": "",
+  "head": {
+    "level": 1
+  },
+  "body": {
+    "record1": {
+      "total": 1,
+      "data": [
+        {
+          "field1": "v1",
+          "field2": "v2",
+          "field3": 123
+        }
+      ]
+    },
+    "record2": {
+      "total": 2,
+      "data": [
+        {
+          "fielda": "a",
+          "fieldb": "b",
+          "fieldc": 321
+        },
+        {
+          "fielda": "c",
+          "fieldb": "d",
+          "fieldc": 321
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 6px; // 纵向滚动条hover之后的宽度为6px，默认展示为4px
+  height: 6px; // 横向滚动条hover之后的高度为6px，默认展示为4px
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba($color: #000, $alpha: 0.16);
+  background-clip: padding-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+/* 水平和垂直滚动条交接处小块的样式 */
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  // 通过box-shadow来实现滚动条hover变粗
+  border-width: 0;
+  box-shadow: inset 2px 2px 2px transparent, inset -2px -2px 2px transparent; // 这里的像素需要根据滚动条默认宽度和hover宽度的差值来获取
+}
+
+[data-theme="blue"],
+[data-theme="dark"] {
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba($color: #fff, $alpha: 0.16);
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "code": "0",
+  "msg": "获取菜单成功",
+  "detaile": "",
+  "head": {},
+  "body": [
+    {
+      "total": 2,
+      "data": [
+        {
+          "sys_code": "1",
+          "menu_id": 1001,
+          "menu_name": "运维中心",
+          "url": "/devops",
+          "parent_menu_id": "0",
+          "path": "2",
+          "icon": "el-icon-suitcase",
+          "menu_type": "0",
+          "load_type": "0"
+        },
+        {
+          "sys_code": "1",
+          "menu_id": 1002,
+          "menu_name": "档案中心",
+          "url": "/documents",
+          "parent_menu_id": "0",
+          "path": "223",
+          "icon": "el-icon-camera-solid",
+          "menu_type": "0",
+          "load_type": "0"
+        }
+      ]
+    }
+  ]
+}

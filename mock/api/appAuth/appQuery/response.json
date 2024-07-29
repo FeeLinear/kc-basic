@@ -1,0 +1,45 @@
+{
+  "code":"0",
+  "msg":"查询应用成功",
+  "detail":"",
+  "head":
+  {
+
+  },
+  "body":
+  {
+     "total":2,
+     "data":
+     [
+        {
+           "createUser":"0",
+           "updateTime":"",
+           "createTime":"",
+           "appName":"金证统一JAVA平台",
+           "appKey":"210216SS",
+           "appDesc":"应用说明",
+           "updateUser":"0",
+           "appSecurity":"appSecurityCode",
+           "limitType":"white",
+           "enabled":"是否可用",
+           "rowId":"1"
+        },
+        {
+           "createUser":"0",
+           "updateTime":"",
+           "createTime":"",
+           "appName":"金证统一JAVA平台",
+           "appKey":"210216ddses",
+           "appDesc":"应用说明",
+           "updateUser":"0",
+           "appSecurity":"appSecurityCodeAAD",
+           "limitType":"black",
+           "enabled":"是否可用",
+           "rowId":"2"
+        }
+
+     ]
+
+  }
+
+}

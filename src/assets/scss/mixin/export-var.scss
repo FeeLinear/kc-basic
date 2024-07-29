@@ -1,0 +1,30 @@
+@import './layout-variables.scss';
+
+:export {
+  theme: $--color-primary;
+
+  // 左边菜单 样式变量
+  sidebarWidth: $sidebar-width;
+  sidebarMixWidth: $sidebar-mix-width;
+  sidebarMultiLevelMixWidth: $sidebar-multi-level-mix-width;
+  sidebarTotalWidth: $sidebar-total-width;
+  sidebarCollapsedTotalWidth: $sidebar-collapsed-total-width;
+  sidebarCollapsedWidth: $sidebar-collapsed-width;
+  sidebarBgColor: $sidebar-bgcolor;
+  topbarHeight: $topbar-height;
+  topbarBgColor: $topbar-bgcolor;
+  topbarMenuBgColor: $topbar-menu-bgcolor;
+  topbarMenuActiveBgColor: $topbar-menu-active-bgcolor;
+  topbarMenuTextColor: $topbar-menu-text-color;
+  topbarMenuActiveTextColor: $topbar-menu-active-text-color;
+  topbarMenuIconColor: $topbar-menu-icon-color;
+
+  // 头部菜单样式变量
+
+  tabnavHeight: $tabnav-height;
+
+  // 设置面板切换布局和皮肤时使用
+  bgColorDark: $bg-color-dark;
+  bgColorLight: $bg-color-light;
+  bgColorBlue: $bg-color-blue;
+}

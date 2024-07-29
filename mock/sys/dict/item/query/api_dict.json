@@ -1,0 +1,266 @@
+[
+  {
+    "dictCode": "API_PARA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "入参",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "出参",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_REQUIRED",
+    "orgCode": "-1",
+    "dictItem": "0",
+    "dictItemName": "否",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_REQUIRED",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "是",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_POS",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "head",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_POS",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "body",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_DATA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "int",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_DATA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "long",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_DATA_TYPE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "String",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_REF_TYPE",
+    "orgCode": "-1",
+    "dictItem": "0",
+    "dictItemName": "不翻译",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_REF_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "数据字典",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_PARA_REF_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "翻译项",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_SERVICE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "0",
+    "dictItemName": "其他服务",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_SERVICE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "基础服务",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_SERVICE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "业务服务",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_EXAMPLE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "请求示例",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_EXAMPLE_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "响应示例",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "JAVA",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "MYBATIS",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "KJDP",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "4",
+    "dictItemName": "KJAX",
+    "dictOrd": 3,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "5",
+    "dictItemName": "JROS",
+    "dictOrd": 4,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_TYPE",
+    "orgCode": "-1",
+    "dictItem": "6",
+    "dictItemName": "KCBP",
+    "dictOrd": 5,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_PAGE_ABLE",
+    "orgCode": "-1",
+    "dictItem": "0",
+    "dictItemName": "不分页",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_BEX_PAGE_ABLE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "分页",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "GET",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "POST",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "PUT",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_API_TYPE",
+    "orgCode": "-1",
+    "dictItem": "4",
+    "dictItemName": "DELETE",
+    "dictOrd": 3,
+    "remark": null
+  },
+  {
+    "dictCode": "API_TOKEN_CATE",
+    "orgCode": "-1",
+    "dictItem": "1",
+    "dictItemName": "如无携带token，生成token",
+    "dictOrd": 0,
+    "remark": null
+  },
+  {
+    "dictCode": "API_TOKEN_CATE",
+    "orgCode": "-1",
+    "dictItem": "2",
+    "dictItemName": "无需携带token，不生成token",
+    "dictOrd": 1,
+    "remark": null
+  },
+  {
+    "dictCode": "API_TOKEN_CATE",
+    "orgCode": "-1",
+    "dictItem": "3",
+    "dictItemName": "需携带token，不销毁token",
+    "dictOrd": 2,
+    "remark": null
+  },
+  {
+    "dictCode": "API_TOKEN_CATE",
+    "orgCode": "-1",
+    "dictItem": "4",
+    "dictItemName": "需携带token，销毁token",
+    "dictOrd": 3,
+    "remark": null
+  }
+]
