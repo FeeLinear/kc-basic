@@ -37,7 +37,7 @@ const views = "/views/";
 generate_projects_routes(views);
 
 const devServer = {
-  port: process.env.PORT || 8000,
+  port: process.env.PORT || 80,
   open: true,
   historyApiFallback: {
     rewrites: [
